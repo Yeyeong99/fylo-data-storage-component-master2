@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  <div class="logo-menu-container">
+    <img src="./images/logo.svg" alt="#" class="logo">
+    <div class="menu-container">
+      <img src="./images/icon-document.svg" alt="#" class="document">
+      <img src="./images/icon-folder.svg" alt="#" class="folder">
+      <img src="./images/icon-upload.svg" alt="#" class="upload">
+    </div>
+  </div>
+  <div class="storage-container">
+    <label for="storage">
+      You’ve used <span id="used-storage">815</span><span> GB</span> of your storage
+    </label>
+    <input type="range" id = "storage" min="0" max="1000">
+    <div class="amount">
+      <span>0</span>
+      <span>1000 GB</span>
+    </div>
+    <div class="left-storage">
+      <h1></h1>GB Left
+      <div class="triangle"></div>
+    </div>
+  </div>
+  <div class="background-container">
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
